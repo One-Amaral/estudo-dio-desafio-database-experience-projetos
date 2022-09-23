@@ -1,0 +1,196 @@
+# Database Experience
+## Banco de Dados SQL
+
+*** 
+- O que são banco de dados:
+
+    - Uma coleção de palavras, que dentre elas há relacionamento entre dados, constituindo então um banco de dados, exemplo
+
+        - Sala de arquivos de uma empresa.
+
+        - Uma agenda de um consultorio.
+
+        - Mysql, mongodb e etc.
+
+- Siglas
+
+    - SGBD (Sistema de Gerenciamento de Banco de Dados).
+
+    - DBMS (Data Base Management System).
+
+    - LDD (Linguagem de Definição de Dados).
+
+    - HPC (High Performance Computing).
+
+    - NoSQL (Not Only SQL).
+- Escolhar de SGBDs SQL ou NOSQL
+
+    - Popularidade
+
+    - Tempo de mercado
+
+    - Documentação
+
+    - Robustez
+
+    - Confiabilidade
+
+    - Segurança
+
+    - Multiplataforma
+
+- Researching
+
+    - Poder Computacional
+
+        - Nº de tarefas computacionais.
+
+        - Quantidade de dados.
+
+        - Heterogeneidade.
+
+        - Computação paralela e distribuída.
+
+- Paradigmas
+
+    - 1º Empírico
+
+        - Baseado em tentativa e erro.
+
+    - 2º Teórico
+
+        - Baseado em teorema e axioma provando .teoricamente
+
+    - 3º Computacional
+
+        -  Baseado em simulações computacional.
+
+    - 4º Big Data
+
+        - Baseado na análise e exploração de dados.
+	
+    - 5º Paradigma
+
+      - Requisitos
+
+        - **Composição** do problema.
+
+        - **Execução** de uma determinada teoria.
+
+        - **Análise** aplicação analítica .
+
+        - **Abstração** criar ou localizar modelo a se trabalhar com os dados.
+
+        - **Reprodutividade** permissivel a replicação e reprodução por outras pessoas.
+
+        - **Reutilização** permissivel para reutilização em ambiente similares.
+
+        - **Escalabilidade** possibilidade de usar em um volume maior de dados.
+
+     - Experimento realizados em larga escala
+
+        - **Paralelismo** Múltiplos processadores operando concorrentemente.
+
+        - **Big Data** processamento paralelo de dados persistentes e particionados.
+
+        - **Cloud** recursos de terceiros - Soluções de tecnologia como serviço Azure, AWS e etc.
+
+- Modelos NoSQL
+
+        - Documentos
+
+            - Exemplo MongoDB Orientado à Documentos
+
+                - Baixa curva de aprendizado.
+
+                - Baseado em JSON.
+
+                - Escalabilidade horizontal.
+
+                - Multi-plataforma.
+
+                - Transações ACID para multi-documento.
+
+                - Consultas: Suporta javascript
+
+- SGBDs na Cloud
+
+        - Amazon RDS, Aurora e Redshift
+
+        - DynamoDB
+
+        - AzureDB
+
+    - Mundo real -  exemplos de utilização
+
+        - Facebook
+
+            - MySQL
+
+            - Cassandra
+
+        - Netflix
+
+            - MySQL
+
+            - Oracle
+
+        - Linkedin
+
+            - Oracle
+
+            - DB DB.io
+
+        - Instagram
+
+            - Cassandra
+
+            - PostgreSQL
+
+        - Twitter
+
+            - MySQL
+
+- Abordagem de DBs
+
+    - **BDs** Manter em DB
+
+        - Abstração
+
+        - Auto-descrição
+
+        - Isolamento
+
+        - Compartilhamento
+
+        - Múltiplas Visões
+
+        - Transação multiuser        
+
+    - **Tradicional** Manter em arquivos.
+
+        - Complicações em redundância e esforço repetitivo.
+
+- Auto-decrição: 1ª das principais característica de SGBD
+
+    - DBs
+
+        - Descrição da estrutura e constrains
+
+        - DB schema
+
+            - Relations
+
+            - Columns
+
+        - **OBS:** NoSQL possuí a descrição dentro do arquivo.
+
+    - Tradicional
+
+        - Programa da Aplicação
+
+            - Estrutura de dados.
+
+            - File processing.
+
+        - **OBS:** Descrição esta dentro da aplicação.
